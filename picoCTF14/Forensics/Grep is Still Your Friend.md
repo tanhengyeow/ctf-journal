@@ -4,9 +4,9 @@ The police need help decrypting one of your father's files. Fortunately you know
 
 # Walkthrough/Solution
 
-Change directory by running this command `cd /problems/grepfriend/` in the shell. Type man for grep for help on how to use the command. Run the command `cat keys | grep daedaluscorp.txt.enc` and you will find the decryption key displayed in plaintext.
+Change directory by running this command `cd /problems/grepfriend/` in the shell. Type `man gre`p for help on how to use the command. Run the command `cat keys | grep daedaluscorp.txt.enc` and you will find the decryption key displayed in plaintext.
 
 # Learning Outcome
 
-Grep is a useful tool to search data admist a chunk of data
+Grep is a useful tool to search data admist a chunk of data.
 
