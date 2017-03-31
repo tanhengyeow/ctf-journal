@@ -17,3 +17,7 @@ The password is url encoded and we when we url decode it, it  gives us `UjZBS05o
 1) Using wireshark
 2) Packet filters
 3) URL & Base64 Encoding/Decoding
+
+# Resources
+
+http://www.hacking-tutorial.com/hacking-tutorial/how-to-sniff-http-post-password-via-network-using-wireshark-network-analyzer/#sthash.Jaa9cZsN.dpbs
