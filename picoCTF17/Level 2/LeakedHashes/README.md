@@ -4,7 +4,7 @@ Someone got hacked! Check out some service's password hashes that were leaked at
 
 # Walkthrough/Solution
 
-There are lots of resources available online that contain cracked hashes. In this case, I used this [service](https://crackstation.net/). However, they only accept a specific hash format and accepts at most 20 hashes at one go. Doing this in your vim editor containing the data of hashdumps.txt helps to clear off the excess format that is not required, `:%s/.\{-}:`. </br>
+There are lots of resources available online that contain cracked hashes. In this case, I used this [service](https://crackstation.net/). However, they only accept a specific hash format and accepts at most 20 hashes at one go. You can filter the data of hashdumps.txt in your vim editor by doing this, `:%s/.\{-}:`, which helps to clear off the excess format that is not required.  </br>
 
 Thankfully the first 20 hashes contain some hashes that were already cracked. Using the credentials to login after connecting to the port, we can access the access the cat ascii art database.
 
