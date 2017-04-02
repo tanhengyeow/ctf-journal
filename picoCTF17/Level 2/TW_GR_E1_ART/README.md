@@ -32,7 +32,7 @@ case "revealFlag":
 
 Viewing the source code of the config file in `/server/config.js` tells us that the flag is arranged in order and the id is the value `64 + 100 = 164`. </br>
 
-I confirmed this by viewing at the `state` object in developer tools.
+I confirmed this by viewing at the `state` object in developer tools under public/js/client.js.
 
 ![](https://github.com/tanhengyeow/ctf-journal/tree/master/picoCTF17/Level%202/TW_GR_E1_ART/img/TW_GR_E1_ART.png)
 
