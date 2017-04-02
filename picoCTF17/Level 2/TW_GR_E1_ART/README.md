@@ -34,7 +34,7 @@ Viewing the source code of the config file in `/server/config.js` tells us that 
 
 I confirmed this by viewing at the `state` object in developer tools.
 
-![](https://github.com/tanhengyeow/ctf-journal/tree/master/picoCTF17/Level%202/TW_GR_E1_ART/img/TW2-1.PNG)
+![](https://github.com/tanhengyeow/ctf-journal/tree/master/picoCTF17/Level%202/TW_GR_E1_ART/img/TW_GR_E1_ART.PNG)
 
 Revealing the flag with id 164, we get `A soft voice on the wind speaks to you: "The secret you are looking for is at_least_the_world_wasnt_destroyed_by_a_meteor_d53e9d9bc6ded1e7cc1f4f60bdf70404. Use it wisely."`
 
