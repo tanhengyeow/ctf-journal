@@ -30,9 +30,27 @@ case "revealFlag":
   break;
 ```
 
-Viewing the source code of the config file in `/server/config.js` tells us that the flag is arranged in order and the id is the value `64 + 100 = 164`. </br>
+Viewing the source code of the config file in `/server/config.js` tells us that the flag is arranged in order through the code snippet:
 
-I confirmed this by viewing at the `state` object in developer tools under public/js/client.js.
+```
+items: Array.from(new Array(83), (_, idx) => {
+	if (idx >= 2) {
+		idx++
+	}
+
+	if (idx >= 77) {
+		idx++;
+	}
+
+	var r = Math.floor(idx / 5) + 1;
+	var c = (idx % 5) + 1;
+
+	return createFlag(idx, { r: r, c: c });
+	}),
+```
+We can also confirm that the id is the value `64 + 100 = 164`. </br>
+
+Using this information, I picked up the flag at the 64th position and confirmed the value of the id by viewing at the `state` object in developer tools under public/js/client.js.
 
 ![](https://github.com/tanhengyeow/ctf-journal/tree/master/picoCTF17/Level%202/TW_GR_E1_ART/img/TW_GR_E1_ART.png)
 
