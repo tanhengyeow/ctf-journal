@@ -60,6 +60,7 @@ Revealing the flag with id 164, we get `A soft voice on the wind speaks to you: 
 
 1) Package managers/Dependencies
 2) Source code control flow
+3) Don't set up your server in a way that it serves the source code. In this case, the problem came from serv.js `app.use(express.static(path.join(__dirname, "..")));` This is telling the server to serve everything in the server's root directory, when in reality, it should only be serving the `public` directory.
 
 
 
