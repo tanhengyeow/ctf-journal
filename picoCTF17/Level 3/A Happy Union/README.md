@@ -33,7 +33,7 @@ I viewed the table names in the database by executing this SQL Injection:
 ```
 ' OR 1=0 UNION SELECT '1', '2', name FROM sqlite_master WHERE type='table' --
 ```
-Note that when you execute an `UNION SELECT`, the corresponding columns must be the same as the original query statement, in this case, which is 3. </br>
+Note that when you execute an `UNION SELECT`, the corresponding columns must be the same as the original query statement, which is 3 in this case. </br>
 
 We can see that there are three tables present, posts, sqlite_sequence and users. The users table usually holds account credentials. With this in mind, executing this SQL Injection shows us the credentials for admin:
 ```
