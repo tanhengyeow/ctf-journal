@@ -48,7 +48,29 @@ items: Array.from(new Array(83), (_, idx) => {
 	return createFlag(idx, { r: r, c: c });
 	}),
 ```
-We can also confirm that the id is the value `64 + 100 = 164`. </br>
+We can also confirm that the id is the value `64 + 100 = 164` through the previous code snippet `entity.items[action.item].effects[i].check == 64` and the following function: 
+
+```
+function createFlag(check, location) {
+	return {
+		name: "Flag",
+		description: "Gives you the flag... maybe.",
+		location: location,
+		use: 0,
+		id: check + 100,
+		sprite: "flag",
+		effects: [
+			{
+				type: "revealFlag",
+				check: check
+			},
+			{
+				type: "destroyItems"
+			}
+		]
+	};
+}
+```
 
 Using this information, I picked up the flag at the 64th position and confirmed the value of the id by viewing at the `state` object in developer tools under public/js/client.js.
 
