@@ -1,1 +1,1 @@
-THe python scripts involved.
+The python scripts involved.
