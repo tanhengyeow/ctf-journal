@@ -24,7 +24,7 @@ The folder contains images of different country flags and a QR code that is brok
 
 I proceeded to use a QR code scanner to scan the [QR code](https://github.com/tanhengyeow/ctf-journal/blob/master/whitehat-contest-13/hue-200/img/QR-code-hue.png), giving me the string "=== Ea5y p4ssw0rd h4h4 ===", which is the password to `openme.zip`.
 
-Extracting `openme.zip` presents us with a text file named `flag.txt` and an image file `here.png`. The text file shows "It's not here ^^", which means the clue lies in the image file. The image file corresponds to the title named "--Dot Code--", which is a clue that we are supposed to decipher the message in braille.
+Extracting `openme.zip` presents us with a text file named `flag.txt` and an image file `here.png`. The text file shows "It's not here ^^", which means the clue lies in the image file. The image file is made up of dots, which corresponds to the title named "--Dot Code--".
 
 ---To be continued---
 
