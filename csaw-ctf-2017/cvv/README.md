@@ -132,6 +132,8 @@ while True:
             r.sendline('0')
             print 'Sending 0=No'
 ```
+With that, the flag is `flag{ch3ck-exp3rian-dat3-b3for3-us3}`.
+
 # Learning outcome
 1. Python scripting
 2. Luhn algorithm
