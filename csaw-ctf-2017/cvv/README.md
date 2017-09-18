@@ -8,7 +8,7 @@ nc misc.chal.csaw.io 8308
 
 The challenge performs a series of checks for valid credit card numbers. To ease some processes, I generated a list of credit card numbers for some processing.
 
-Wrote a hackish python to solve this challenge 
+Wrote a hackish python to solve this challenge:
 
 ```
 #!/usr/bin/python
