@@ -52,7 +52,7 @@ $(".form-signin").submit(function () {
 ```
 We can pass the credentials through `curl` so that the raw password is sent to the server directly.
 ```
-curl -d ‘username=admin&password=5896e92d38ee883cc09ad6f88df4934f6b074cf8’ -X POST ’http://littlequery.chal.csaw.io/login.php' 
+curl -d 'username=admin&password=5896e92d38ee883cc09ad6f88df4934f6b074cf8' -X POST 'http://littlequery.chal.csaw.io/login.php' 
 <rest of the headers are cut off for brevity>
 ```
 With that, the flag is `flag{mayb3_1ts_t1m3_4_real_real_escape_string?}`
