@@ -138,5 +138,7 @@ while len(password) != 32:
 
 print "Admin's username is LordCommander and the password (in md5) is %s" % password
 ```
+![](https://github.com/tanhengyeow/ctf-journal/blob/master/backdoorctf17/the-wall/src/thewall.png)
+
 # Learning outcome
 1. Blind SQLi through python scripting
