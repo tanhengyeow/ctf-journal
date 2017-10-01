@@ -38,6 +38,8 @@ Offline.options = {
 
 This shows that the page is using functionalities of the imported offline-js library. I changed some settings in `Offline.options` and experimented around. Upon disconnection from internet access, this prompt was shown:
 
+![](https://github.com/tanhengyeow/ctf-journal/blob/master/dctf-quals-2017/super-secure/src/super-secure.jpg)
+
 This is a sign that the message lies somewhere where the user can see it (probably the css files).
 
 You can find the flag `DCTF{76c77d557198ff760ab9866ad1261a01a7298c349617cc4557462f80500d56a7}` when you view `slide2.css`.
